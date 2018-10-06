@@ -3,22 +3,11 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+This repository is created for a coding challenge reason, it's basically a ruby&rails server that receive time tracking requests and persist them into an SQLite database in order to track how much time users spent into a certain website
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+###Endpoints:
+  post 'auth/login', to: 'authentication#authenticate'<br>
+  post 'signup', to: 'users#create'<br>
+  post 'visit/init', to: 'visit#init'<br>
+  post 'visit/ping', to: 'visit#ping'<br>
+  get 'visit', to: 'visit#visits'<br>
