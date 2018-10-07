@@ -47,4 +47,5 @@ end
   1. Every one second, the script (library) send a request ping {session_hash:'QSDLaiuae'} 
   2. The backend fetch the `visit` entry from the database based on the `session_hash` value and update the duration.
 
-### Draft:
+### Workflow Draft:
+![architecture](draft.jpg)
