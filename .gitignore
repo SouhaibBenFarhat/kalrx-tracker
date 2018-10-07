@@ -19,7 +19,7 @@
 
 # Ignore uploaded files in development
 /storage/*
-/.idea
+.idea/
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
