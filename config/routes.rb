@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   post 'visit/init', to: 'visit#init'
   post 'visit/ping', to: 'visit#ping'
   get 'visit', to: 'visit#visits'
+  delete 'visit', to: 'visit#clearDatabase'
 end
