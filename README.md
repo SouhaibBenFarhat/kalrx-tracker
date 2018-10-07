@@ -32,13 +32,14 @@ This repository is created for a coding challenge reason, it's basically a ruby&
   
   ```ruby
 class Visit
-    t.string "session_hash"
-    t.string "user_hash"
-    t.integer "duration", default: 0
-    t.string "site"
-    t.string "path"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+      t.string "session_hash"
+      t.string "user_hash"
+      t.integer "duration", default: 0
+      t.string "site"
+      t.string "path"
+      t.datetime "created_at", null: false
+      t.datetime "updated_at", null: false
+      
 end
 ```
   
